@@ -127,4 +127,4 @@ result = healthcare_bot.invoke(
     config=config_t1
 )
 
-print(result)
+print(result["message"][-1].content)
